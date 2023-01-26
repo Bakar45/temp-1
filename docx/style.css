@@ -1,0 +1,212 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#container {
+    height: 100vh;
+    /* background-color: black; */
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    height: 70px;
+    background-color: transparent;
+    position: sticky;
+}
+
+ol {
+    color: white;
+    line-height: 4;
+    display: flex;
+    list-style: none;
+    border-bottom: 1px solid white;
+}
+
+li {
+    flex-grow: 0.3;
+
+}
+
+li:first-child {
+    flex-grow: 4;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 37px;
+}
+
+li:not(:first-child) {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+li:not(:first-child):hover {
+    color: orangered;
+}
+
+.btn {
+    height: 40px;
+    width: 180px;
+    background-color: orangered;
+    border-radius: 28px;
+    color: white;
+    position: relative;
+    top: 11px;
+    border: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    height: 40px;
+    width: 180px;
+    background-color: transparent;
+    color: orangered;
+    border: 2px solid orangered;
+}
+
+
+
+#content-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#delicious-food {
+    margin-top: 163px;
+    font-size: 1.5rem;
+    font-family: 'Pacifico', cursive;
+    color: orangered;
+}
+
+#bring {
+    margin-top: 56px;
+font-size: 4em;
+color: white;
+font-family: cursive;
+}
+
+#tasty {
+    font-family: sans-serif;
+    color: orangered;
+    margin-top: 33px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#arrow {
+    position: relative;
+width: 30px;
+height: 30px;
+border-radius: 30px;
+top: 60px;
+background-color: orangered;
+}
+
+#container2 {
+    height: 500px;
+    background-color: #f3f3f3;
+    display: flex;
+    padding: 25px 48px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    line-height: 2;
+}
+
+#unique-story {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 22px;
+    line-height: normal;
+    color: #eb3007;
+    margin-top: 34px;
+    margin-bottom: 7px;
+}
+
+#about {
+    font-weight: 800;
+    position: relative;
+    line-height: 140%;
+    font-family: sans-serif;
+    margin-bottom: 23px;
+}
+
+#book-btn {
+    width: 140px;
+    height: 50px;
+    border-radius: 30px;
+    border: 3px solid orangered;
+    color: #eb3007;
+    font-weight: bold;
+    position: relative;
+    left: 57px;
+    top: 30px;
+}
+
+#book-btn:hover {
+    background-color: orangered;
+    color: white;
+}
+
+#container3 {
+    display: flex;
+    height: 400px;
+    width: 100vw;
+    flex-direction: row;
+    
+}
+
+#background-img {
+    height: 1000px;
+    background-image: url(bg3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#background-img img {
+    top: 33px;
+    
+}
+
+.c3-box{
+
+    background-color: transparent;
+    border: 1px solid orangered;
+    height: 400px;
+    width: 300px;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding: 0px 23px;
+}
+.c3-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: 2px solid orangered;
+}
+.c3-img:hover{
+background-color: orangered;
+}
+#bar{
+    color: orangered;
+}
